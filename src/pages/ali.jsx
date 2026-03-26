@@ -11,13 +11,14 @@ import {
   FaCode
 } from "react-icons/fa";
 
-const ali = () => {
+// Ingat: Gunakan huruf kapital untuk nama komponen
+const Ali = () => {
   // ===== DATA PROFIL =====
   const profil = {
     nama: "Moh Ali Farda Al Ghifari",
     role: "Full-Stack Developer Enthusiast",
-    kelas: "D3 Teknologi Informasi",
-    jurusan: "Rekayasa Perangkat Lunak",
+    kelas: "T2C",
+    jurusan: "D3 Teknologi Informasi",
     sekolah: "Universitas Brawijaya",
     domisili: "Malang, Jawa Timur",
     email: "alifarda126@gmail.com",
@@ -25,12 +26,15 @@ const ali = () => {
     linkedin: "https://linkedin.com/in/alifarda",
     github: "https://github.com/alifarda126",
     noTelp: "+62 831 1404 1924",
-    deskripsi: `Halo, perkenalkan nama saya Ali Farda. Saya adalah siswa kelas XII jurusan Rekayasa Perangkat Lunak di SMK Negeri 1 Bandung. Saya memiliki ketertarikan mendalam di bidang pengembangan web dan mobile.\n\nSaya mulai belajar coding sejak kelas X, dan hingga kini saya terus mengasah kemampuan di ekosistem JavaScript modern. Selain coding, saya juga aktif sebagai ketua bidang IT di organisasi sekolah, yang melatih kemampuan saya dalam problem-solving dan kerja sama tim.\n\nKe depannya, saya ingin mendalami bidang Artificial Intelligence dan Cloud Computing, serta berkontribusi lebih banyak pada proyek Open Source.`,
+    deskripsi: `Halo, perkenalkan nama saya Moh Ali Farda Al Ghifari, biasa dipanggil Ali Farda. Saya adalah mahasiswa kelas T2C jurusan D3 Teknologi Informasi di Universitas Brawijaya, Malang, Jawa Timur, dengan minat besar sebagai Full-Stack Developer Enthusiast.
+    
+    Saya aktif mengembangkan keterampilan di ekosistem JavaScript modern untuk pengembangan web maupun mobile. Selain itu, saya juga terlibat dalam berbagai kegiatan organisasi yang melatih kemampuan problem-solving, kepemimpinan, dan kerja sama tim.
+    
+    Ke depannya, saya ingin mendalami bidang Artificial Intelligence dan Cloud Computing, serta berkontribusi lebih banyak pada proyek Open Source agar dapat memberikan dampak nyata bagi komunitas teknologi.`,
     skills: ["Java", "Tailwind CSS", "Node.js", "JavaScript", "HTML", "PHP", "Figma"]
   };
 
   return (
-
     <div className="min-h-screen bg-slate-900 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 font-sans relative overflow-hidden">
       
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#334155_1px,transparent_1px),linear-gradient(to_bottom,#334155_1px,transparent_1px)] bg-[size:32px_32px] opacity-30"></div>
@@ -38,12 +42,13 @@ const ali = () => {
       <div className="absolute top-0 left-1/4 w-[400px] h-[400px] bg-blue-500/30 rounded-full mix-blend-screen filter blur-[100px] animate-blob"></div>
       <div className="absolute bottom-0 right-1/4 w-[400px] h-[400px] bg-cyan-400/20 rounded-full mix-blend-screen filter blur-[100px] animate-blob animation-delay-2000"></div>
 
-      <div className="max-w-5xl w-full bg-slate-800/80 backdrop-blur-xl rounded-3xl border border-slate-600 shadow-2xl overflow-hidden relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-12">
+      {/* Card dilebarkan menjadi max-w-6xl */}
+      <div className="max-w-6xl w-full bg-slate-800/80 backdrop-blur-xl rounded-3xl border border-slate-600 shadow-2xl overflow-hidden relative z-10">
+        <div className="grid grid-cols-1 lg:grid-cols-12 h-full">
           
           {/* ===== SIDEBAR (KIRI) ===== */}
-          {/* Sidebar dibuat sedikit transparan agar menyatu dengan card utama */}
-          <div className="lg:col-span-4 bg-slate-800/50 p-8 flex flex-col items-center border-b lg:border-b-0 lg:border-r border-slate-600/80">
+          {/* UPDATE: Ditambahkan 'justify-center' agar konten di dalam sidebar rata tengah secara vertikal */}
+          <div className="lg:col-span-4 bg-slate-800/50 p-8 flex flex-col items-center justify-center border-b lg:border-b-0 lg:border-r border-slate-600/80">
             {/* Foto Profil */}
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-full blur opacity-50 group-hover:opacity-100 transition duration-500"></div>
@@ -54,7 +59,8 @@ const ali = () => {
               />
             </div>
 
-            <h1 className="mt-6 text-3xl font-extrabold text-white tracking-tight text-center">
+            {/* Teks ukuran responsif */}
+            <h1 className="mt-6 text-2xl lg:text-3xl font-extrabold text-white tracking-tight text-center">
               {profil.nama}
             </h1>
             <p className="mt-2 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-300 font-medium text-lg text-center">
@@ -91,7 +97,6 @@ const ali = () => {
           <div className="lg:col-span-8 p-8 lg:p-10 flex flex-col justify-center">
             
             <div className="flex flex-wrap gap-4 mb-8">
-              {/* 4. UPDATE: Badge / Kotak elemen di dalam card ikut diterangkan sedikit */}
               <div className="flex items-center gap-2 text-slate-200 bg-slate-700/60 px-4 py-2 rounded-lg border border-slate-600/50 text-sm">
                 <FaGraduationCap className="text-blue-400" />
                 <span>{profil.sekolah} - {profil.kelas}</span>
@@ -156,4 +161,4 @@ const ali = () => {
   );
 };
 
-export default ali;
+export default Ali;

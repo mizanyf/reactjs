@@ -55,12 +55,14 @@ export default function Mizan() {
             </div>
 
             <div className="text-sm text-slate-600 leading-relaxed text-justify space-y-4">
+              <div className="text-sm text-slate-600 leading-relaxed text-justify space-y-4">
               <p>
-                Halo! Saya adalah mahasiswa D-III Teknologi Informasi yang memiliki minat besar dalam pengembangan aplikasi web modern, khususnya pada ekosistem JavaScript. Sebagai Team Leader, saya bertanggung jawab memastikan fondasi teknis menggunakan React, Vite, dan Tailwind CSS berjalan optimal.
+                Halo! Saya adalah mahasiswa D-III Teknologi Informasi yang memiliki antusiasme tinggi dalam mengeksplorasi dunia pengembangan aplikasi web modern, khususnya pada ekosistem JavaScript. Sebagai seorang Team Leader, saya memegang tanggung jawab penuh dalam membangun fondasi teknis proyek menggunakan teknologi mutakhir seperti React, Vite, dan Tailwind CSS guna memastikan performa aplikasi berjalan dengan optimal dan skalabel. Saya sangat percaya bahwa kombinasi antara desain yang bersih, struktur kode yang rapi, serta efisiensi eksekusi adalah kunci utama dalam menciptakan pengalaman pengguna yang berkesan.
               </p>
               <p>
-                Saya percaya desain yang bersih dan performa kode yang efisien adalah kunci pengalaman pengguna yang baik. Saya juga aktif mengembangkan kemampuan <span className="italic">problem-solving</span> serta menjunjung tinggi kolaborasi tim dalam setiap proyek.
+                Di luar kesibukan akademik dan koding, saya adalah seorang yang sangat menggemari dunia video game dan sepak bola. Bermain game telah melatih kemampuan <span className="italic">problem-solving</span> dan ketangkasan berpikir strategis saya dalam menghadapi tantangan yang kompleks. Sementara itu, sebagai penikmat sepak bola, saya belajar banyak tentang arti penting koordinasi, sportivitas, dan kerja keras dalam sebuah tim. Nilai-nilai kedisiplinan dan kolaborasi inilah yang selalu saya bawa dan terapkan dalam setiap proyek pengembangan perangkat lunak yang saya pimpin.
               </p>
+            </div>
             </div>
           </div>
 

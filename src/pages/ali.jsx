@@ -1,5 +1,5 @@
 import React from "react";
-import foto from "../assets/image.png"; // Pastikan path foto sesuai
+import foto from "../assets/ali.png"; // Pastikan path foto sesuai
 import { 
   FaEnvelope, 
   FaInstagram, 

@@ -85,12 +85,11 @@ export default function Aditya() {
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4">
-            <button className="flex-1 bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-2xl transition-all transform hover:-translate-y-1 hover:shadow-xl shadow-blue-200 active:scale-95">
+            <a href="https://wa.me/6282190220487" target="_blank" className="flex-1">
+            <button className="flex-1 bg-blue-600 hover:bg-blue-700 text-white font py-4 rounded-2xl transition-all transform hover:-translate-y-1 hover:shadow-xl shadow-blue-200 active:scale-95">
               Contact Me
             </button>
-            <button className="flex-1 bg-white border-2 border-slate-100 hover:border-blue-200 hover:bg-blue-50 text-slate-700 font-bold py-4 rounded-2xl transition-all transform hover:-translate-y-1 active:scale-95">
-              Portfolio
-            </button>
+            </a>
           </div>
         </div>
       </div>

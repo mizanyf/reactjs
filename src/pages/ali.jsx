@@ -1,0 +1,1 @@
+export default function Ali() { return <h1 className="text-3xl font-bold text-orange-500 text-center mt-10">Ini Halaman Ali</h1> }

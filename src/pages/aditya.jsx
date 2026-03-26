@@ -1,0 +1,1 @@
+export default function Aditya() { return <h1 className="text-3xl font-bold text-green-500 text-center mt-10">Ini Halaman Aditya</h1> }

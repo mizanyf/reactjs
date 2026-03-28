@@ -15,7 +15,7 @@ const Home = () => {
       path: '/aditya', 
       role: 'Developer', 
       color: 'bg-emerald-600',
-      image: '/aditya.jpg' // <-- Nama file foto Aditya
+      image: '/aditya.jpeg' // <-- Nama file foto Aditya
     },
     { 
       name: 'Ali', 
